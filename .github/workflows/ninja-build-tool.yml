@@ -1,2 +1,0 @@
-- name: Install ninja-build tool
-  uses: seanmiddleditch/gha-setup-ninja@v3
