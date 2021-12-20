@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# CMake files and folders.
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# Replit file and other file and folder.
+.replit
+build/
