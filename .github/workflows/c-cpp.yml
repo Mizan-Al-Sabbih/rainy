@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: built
-      run: ./built
+      run: echo "built"
     - name: make
       run: make
     - name: make build
