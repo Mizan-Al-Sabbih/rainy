@@ -1,0 +1,4 @@
+rule cxx
+  command = clang++ $in -o $out
+
+build built: cxx lib/essentials/repl/src/token.cpp
