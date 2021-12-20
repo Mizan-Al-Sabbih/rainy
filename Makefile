@@ -1,2 +1,2 @@
 build:
-  clang++ -c token.o token.cpp
+  clang++ -c token.o lib/essentials/repl/src/token.cpp
