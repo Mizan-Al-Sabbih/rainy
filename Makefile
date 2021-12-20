@@ -1,3 +1,4 @@
 build: \
-  cmake -B /home/runner/work/built/built/build --config release \
+  clang++ -c token.o lib/essentials/repl/src/token.cpp \
+  clang++ -Xlinker token.o \
 
