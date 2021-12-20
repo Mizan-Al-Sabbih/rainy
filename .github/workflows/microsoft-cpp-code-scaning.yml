@@ -1,0 +1,3 @@
+- name: Microsoft C++ Code Analysis Action
+  uses: microsoft/msvc-code-analysis-action@v0.1.0
+  
