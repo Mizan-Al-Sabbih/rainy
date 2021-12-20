@@ -13,10 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: built
-      run: echo "built"
-    - name: make
-      run: make
-    - name: make build
-      run: make build
+    - name: ninja
+      run: ninja
+    - name: build
+      run: ninja built
+    - name: run
+      run: ./built
 
