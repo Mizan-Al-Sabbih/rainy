@@ -1,3 +1,5 @@
+cppflags = -Wall
+
 rule cxx
   command = clang++ $in -o $out
 
