@@ -38,4 +38,8 @@ CMakeFiles/
 
 # Replit file and other file and folder.
 .replit
-build/
+built
+history.tmp
+.history.tmp
+.ninja_deps
+.ninja_log
