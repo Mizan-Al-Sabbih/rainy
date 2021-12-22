@@ -1,4 +1,22 @@
-#ifndef TOKEN_CPP
-#define TOKEN_CPP
+#ifndef TOKEN_HPP
+#define TOKEN_HPP
+
+std::string Read (std::string Repl) {
+  return Repl;
+};
+
+std::string Eval (std::string Repl) {
+  return Repl;
+};
+
+std::string Print (std::string Repl) {
+  return Repl;
+};
+
+std::string Loop (std::string Repl) {
+  auto AST = Read(Repl);
+  auto Output = Eval(AST);
+  return Print(Output);
+};
 
 #endif
