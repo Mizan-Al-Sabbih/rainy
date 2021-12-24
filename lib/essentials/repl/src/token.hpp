@@ -1,7 +1,7 @@
 #ifndef TOKEN_HPP
 #define TOKEN_HPP
 
-#include "lexer.hpp"
+#include "lexical.hpp"
 
 std::string Read (std::string Repl) {
   return Repl;
