@@ -13,9 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2 seanmiddleditch/gha-setup-ninja@v3
-    - name: ninja
-      run: ninja
-    - name: build
-      run: ninja built
-    - name: run
-      run: ./built
+    - name: cmake
+      run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Debug
+    - name: make
+      run: make
