@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2 Symbitic/install-cmake@v0.1.0
     - name: cmake
       run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Debug
     - name: make
