@@ -1,6 +1,8 @@
 #ifndef TOKEN_HPP
 #define TOKEN_HPP
 
+#include "lexer.hpp"
+
 std::string Read (std::string Repl) {
   return Repl;
 };
