@@ -1,6 +1,4 @@
-cppflags = -Wall
+rule cmake
+  command = cmake -B $in -S $in
 
-rule cxx
-  command = clang++ $in -o $out
-
-build built: cxx lib/essentials/repl/src/token.cpp
+build rainy: cmake ~/rainy/build/ 
